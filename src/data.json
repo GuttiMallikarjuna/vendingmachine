@@ -1,0 +1,50 @@
+[
+    {
+        "image": "../src/images/coke1.webp",
+        "price": 90
+    },
+    {
+        "image": "../src/images/sprite.jpg",
+        "price": 70
+    },
+    {
+        "image": "../src/images/biscuit1.jfif",
+        "price": 30
+    },
+    {
+        "image": "../src/images/biscuit2.jfif",
+        "price": 50
+    },
+    {
+        "image": "../src/images/biscuit3.jfif",
+        "price": 40
+    },
+    {
+        "image": "../src/images/biscuit4.jfif",
+        "price": 60
+    },
+    {
+        "image": "../src/images/kinley.jfif",
+        "price": 20
+    },
+    {
+        "image": "../src/images/lays1.jfif",
+        "price": 80
+    },
+    {
+        "image": "../src/images/lays2.jfif",
+        "price": 100
+    },
+    {
+        "image": "../src/images/lays3.jfif",
+        "price": 60
+    },
+    {
+        "image": "../src/images/lays4.jfif",
+        "price": 40
+    },
+    {
+        "image": "../src/images/thumsup.jfif",
+        "price": 120
+    }
+]

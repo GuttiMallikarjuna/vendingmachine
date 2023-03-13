@@ -1,12 +1,8 @@
-.maindiv {
-  display: flex;
-}
-
 .card {
   align-items: center;
   text-align: center;
-  width: 140px;
-  height: 170px;
+  width: 150px;
+  height: 230px;
   padding: 5px;
   border: 2px solid gainsboro;
   border-radius: 10px;
@@ -14,31 +10,102 @@
 
 }
 
-.container {
+
+
+
+.card-header div {
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.shop {
   display: flex;
   flex-wrap: wrap;
-  width: 700px;
+  width: 550px;
   height: auto;
   border: 10px solid gray;
   padding: 5px;
   align-items: center;
   justify-content: center;
-
+  background-color: white;
   border-radius: 10px;
 
 }
 
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 button {
-  width: 60px;
-  padding: 5px;
-  background-color: green;
+  width: 70px;
+  padding: 10px;
+  background-color: rgb(216, 3, 3);
   border-radius: 5px;
   border: none;
   color: white;
-  font-size: 18px;
+  font-size: 14px;
+  margin-top: 5px;
 }
 
 img {
   width: 120px;
-  height: 130px;
+  height: 120px;
+}
+
+.subdiv {
+  width: 260px;
+  height: auto;
+  border: 2px solid grey;
+  border-radius: 10px;
+  background-color: white;
+  padding: 10px;
+  padding-top: 30px;
+}
+
+#item,
+#money,
+#quantity {
+
+  width: 240px;
+  padding: 5px;
+  height: 20px;
+  margin: 3px;
+}
+
+#resultdiv {
+  background-color: blue;
+  height: 100px;
+}
+
+.maindiv {
+  display: flex;
+  width: 860px;
+  border: 15px solid rgb(15, 17, 100);
+  border-radius: 25px;
+  margin-left: 200px;
+
+}
+
+#dd {
+  width: 255px;
+  padding: 5px;
+  height: 35px;
+  margin: 3px;
+
+}
+
+#display {
+  display: block;
+  justify-content: center;
+  margin-top: 15px;
+
+  color: rgb(185, 33, 28);
+  font-weight: bold;
+}
+
+#head {
+  text-align: center;
 }
